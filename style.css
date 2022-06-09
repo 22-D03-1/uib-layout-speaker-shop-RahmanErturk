@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Work Sans', sans-serif;
+  background-color: lightgray;
+}
+
+main {
+  width: 90%;
+  margin: 40px auto;
+  background-color: white;
+  margin-bottom: 40px;
+}
+
+header {
+  width: 100%;
+  height: 15%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-auto-rows: 70px;
+  grid-auto-flow: dense;
+  margin: 40px;
+  padding-top: 50px;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-start;
+}
+.logo-text {
+  margin-left: 20px;
+  font-size: 24px;
+}
+nav {
+  margin-left: 30px;
+}
+nav a {
+  margin: 0px 30px; 
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.main-text {
+  width: 80%;
+  height: 30%;
+  margin: 120px auto;
+  padding-top: 30px;
+}
+
+.main-title {
+  font-weight: 500;
+  font-size: 34px;
+}
+.main-p {
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.button {
+  display: flex;
+  justify-content: flex-end;
+}
+button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-right: 150px;
+}
+
+.pic-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-auto-rows: 520px;
+  grid-auto-flow: dense;
+  gap: 15px;
+  margin-top: 2%;
+}
+
+.picture {
+  width: 320px;
+  height: 500px;
+  position: relative;
+}
+
+.picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.woman {
+  overflow: hidden;
+}
+
+.woman img {
+  object-fit: unset;
+  width: unset;
+}
+
+.img-title {
+  position: absolute;
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  top: 10%;
+  left: 10%;
+  bottom: 10%;
+  color: white;
+  font-weight: 500;
+  text-shadow: 0px 0px 25px black;
+}
+
+.open img {
+  width: 36px;
+  height: 36px;
+  padding: 10px;
+  left: 10%;
+  bottom: 6%;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0px 0px 0px 8px rgba(255, 255, 255, 0.5);
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+}
