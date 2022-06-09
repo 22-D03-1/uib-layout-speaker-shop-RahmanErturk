@@ -75,16 +75,16 @@ button {
 
 .pic-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-auto-rows: 520px;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  grid-auto-rows: 600px;
   grid-auto-flow: dense;
   gap: 15px;
   margin-top: 2%;
 }
 
 .picture {
-  width: 320px;
-  height: 500px;
+  width: 370px;
+  height: 580px;
   position: relative;
 }
 
