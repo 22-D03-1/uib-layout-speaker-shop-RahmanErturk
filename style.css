@@ -79,13 +79,14 @@ button {
   grid-auto-rows: 600px;
   grid-auto-flow: dense;
   gap: 15px;
-  margin-top: 2%;
+  margin: 10px auto;
 }
 
 .picture {
   width: 370px;
   height: 580px;
   position: relative;
+  margin-left: 20px;
 }
 
 .picture img {
